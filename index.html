@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+  <link rel="stylesheet" href="styling.css">
+  <link rel="stylesheet" href="Media Query/mediaquery.css">
+</head>
+<body>
+  <div id="main">
+
+    <ul id="sidebar">
+      <i onclick="hideSidebar()" class="ri-close-line"></i>
+      <h3><a href="#hero-section">Home</a></h3>
+      <h3><a href="#Projects-title">Projects</a></h3>
+      <h3><a href="#skills-title-id">Skills</a></h3>
+      <h3><a href="#contact-title">Contact</a></h3>
+    </ul>
+
+    <div id="nav-container">
+      <h2>SAGAR.DEV</h2>
+         <nav>
+          <ul>
+            <h3 class="nav-ul"><a href="#hero-section">Home</a></h3>
+            <h3 class="nav-ul"><a href="#Projects-title">Projects</a></h3>
+            <h3 class="nav-ul"><a href="#skills-title-id">Skills</a></h3>
+            <h3 class="nav-ul"><a href="#contact-title">Contact</a></h3>
+            <i onclick = 'showSidebar()' class="ri-menu-line"></i>
+          </ul>
+        </nav>
+     </div>
+  
+     <div id="hero-section" class="hero-section">
+      <div id="left">
+        <h1>I'm Sagar Pujara,<br>
+         <h2>A&nbsp;<span>Frontend&nbsp;</span>Developer.</h2> 
+        </h1>
+        <h3>A passionate web developer with a focus on frontend technologies such as ReactJS, HTML, CSS and JavaScript. </h3>
+  
+        <div class="resume-contact-buttons">
+          <a href="assets/Resume-Canva-4.pdf" target="_blank"><button class="explore-button">Download CV &nbsp;<i class="ri-download-line"></i></button></a>
+        <!-- <a href="#contact-title"><button>Contact&nbsp;<i class="ri-contacts-line"></i></button></a> -->
+        </div>
+      </div>
+      
+      <div id="right">
+        <div>
+          <img src="assets/Portfolio-photo-4.jpg" alt="">
+        </div>
+        
+  
+          <div class="profile-icon-right">
+            
+            <a href="https://github.com/sagardotdev" target="_blank"><i class="devicon-github-original"></i></a>
+  
+            <a href="https://www.linkedin.com/in/sagar-pujara-379756292/" target="_blank">
+              <i class="devicon-linkedin-plain"></i></a>
+  
+            <a href="https://stackoverflow.com/users/25204222/sagar-pujara" target="_blank">
+              <i class="devicon-stackoverflow-plain"></i></a>
+  
+            <a href="https://x.com/Imsagarpujara" target="_blank"><i class="devicon-twitter-original"></i></a>
+            
+          </div>
+      </div>
+      </div>
+     </div>
+  
+     <!-- --------------------------------------Project Section------------------------------------------- -->
+  
+    <div id="Projects-title" class="Projects-title"><h1>Projects</h1></div>
+  
+    <div id="projects-card-main">
+  
+      <div id="projects-card">
+  
+        <div id="projects-card-top">
+            <h3>CoffeeClub</h3>
+            <a href="https://github.com/sagardotdev/CoffeeClub" target="_blank">
+              <i class="devicon-github-original"></i>
+            
+            </a>
+            <a href="https://sagardotdev.github.io/CoffeeClub/" target="_blank"><i class="ri-external-link-line"></i>
+            </a>
+        </div>
+  
+        <div id="projects-card-middle">
+          <p>Coffee Club is the website for people who enjoy coffee.
+          </p>
+          <img src="assets/coffee-house-project.PNG" alt="">
+        </div>
+  
+      </div>
+  
+      <div id="projects-card">
+  
+        <div id="projects-card-top">
+            <h3>Web Phind</h3>
+            <a href="https://github.com/sagardotdev/WebiLearned" target="_blank">
+              <i class="devicon-github-original"></i>
+            
+            </a>
+            <a href="https://sagardotdev.github" target="_blank"><i class="ri-external-link-line"></i>
+            </a>
+        </div>
+  
+        <div id="projects-card-middle">
+          <p>Web Phind is a website designed to help people who are starting their web journey.
+          </p>
+          <img src="assets/WebPhind-project.PNG" alt="">
+        </div>
+  
+      </div>
+  
+      <div id="projects-card">
+  
+        <div id="projects-card-top">
+            <h3>Coming Soon</h3>
+            <a href="https://github.com/sagardotdev/CoffeeClub" target="_blank">
+              <i class="devicon-github-original"></i>
+            
+            </a>
+            <a href="https://sagardotdev.github.io/CoffeeClub/" target="_blank"><i class="ri-external-link-line"></i>
+            </a>
+        </div>
+  
+        <div id="projects-card-middle">
+          <p>Coming Soon
+          </p>
+          <img src="" alt="Coming soon">
+        </div>
+  
+      </div>
+  
+      
+  
+      
+  
+    </div>  <!-- main div ended here  -->
+  
+  
+    <!-- ------------------------------------------------Skills Section---------------------------------- -->
+        <div id="skills-title-id" class="skills-title"><h1>Skills</h1></div>
+  
+        <div class="skills-container">
+  
+          <div class="image-container">
+            
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" class="floating-img"/>
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" class="floating-img"/>
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" class="floating-img"/>
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" class="floating-img"/>
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" class="floating-img"/>
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" class="floating-img"/>
+        
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" class="floating-img"/>
+                                
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain.svg" class="floating-img"/>
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" class="floating-img"/>
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" class="floating-img"/>
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" class="floating-img"/>
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" class="floating-img"/>
+            
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" class="floating-img"/>
+        
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" class="floating-img"/>
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" class="floating-img"/> 
+             
+          </div>
+  
+        </div>
+  
+          
+  
+          <!-- ---------------------------------------------Contact--------------------------------------- -->
+  
+            <h1 id="contact-title" class="contact-title">Contact</h1>
+            <div class="main-contact">
+              <div class="contact-elements">
+                <form action="https://api.web3forms.com/submit" id="myContactForm" method="POST">
+                  <input type="hidden" name="access_key" value="cabde4e6-3788-41ce-bb0a-15eddc1f02ba">
+  
+                  <h2><i class="ri-user-fill"></i></i> Full Name</h2>
+                  <input type="text" id="name" name="name" placeholder="Your Name" required>
+  
+                  <h2><i class="ri-mail-line"></i></i> Email</h2>
+                  <input type="email" id="email" name="email" placeholder="Your Email" required>
+  
+                  <h2><i class="ri-telegram-2-line"></i> Message</h2>
+                  <textarea type="text" id="message" name="message" placeholder="Message..." cols="4" required> </textarea>
+  
+                  <button class="submit-button" type="submit">Submit</button>
+  
+                </form>
+                  
+              </div>
+  
+  
+              </div>
+            </div>
+  
+          <footer>
+              <p>&copy; 2024 Sagar Pujara. All Rights Reserved.</p>
+              <a href="https://github.com/sagardotdev" target="_blank">
+                <i class="devicon-github-original"></i>
+              </a>
+              <a href="https://linkedin.com/in/sagar-pujara-379756292" target="_blank">
+                <i class="devicon-linkedin-plain"></i>
+              </a>
+          </footer>
+              
+     </div>
+  </div>  <!--- main div ends here -->
+   
+   <script src="script.js"></script>
+</body>
+</html>
