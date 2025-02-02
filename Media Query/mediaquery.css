@@ -2,6 +2,10 @@
 
 @media (max-width: 800px){
 
+  #nav-container h2{
+    font-size: 18px;
+  }
+
   #nav-container ul .nav-ul{
     display: none;
   }
