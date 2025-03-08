@@ -318,22 +318,39 @@ html{
 
 /* --------------------------------------------------------------------------------------------------- */
 
-.skills-title{
+.skills-title {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
 }
 
-.skills-title h1{
+.skills-title h1 {
   font-size: 4vw;
 }
 
-.skills-container{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.skills-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
+.image-container {
+  position: relative;
+  width: 60vw;
+  height: 60vh;
+  overflow: hidden;
+  border-radius: 4px;
+  /* border: 1px solid rgb(241, 199, 199); */
+}
+
+.floating-img {
+  position: absolute;
+  width: 60px;
+  height: auto;
+  transition: transform 2s ease-in-out;
+  mix-blend-mode: screen;
+}
 
 
 
